@@ -1,10 +1,9 @@
 Feature: Checkout
   As a user, I want to be able to smoothly complete the checkout process, ensuring a convenient shopping experience.
 
-	Background: 
+  Background: 
     Given User has logged in with valid credentials
     When User adds items to cart and goes to checkout
-		
 
   Scenario: User is able to checkout successfully
     And User enters checkout information and completes checkout
