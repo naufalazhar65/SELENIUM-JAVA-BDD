@@ -3,14 +3,13 @@ package StepDefinitions;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -22,7 +21,6 @@ import io.cucumber.java.en.When;
 public class LoginStepDefinition {
 	private WebDriver driver;
 
-	@SuppressWarnings("deprecation")
 	@Before
 	public void setUp() {
 		System.setProperty("webdriver.chrome.driver", "/Users/naufalazhar/.cache/selenium/chromedriver/chromedriver");
@@ -31,8 +29,8 @@ public class LoginStepDefinition {
 		options.addArguments("disable-gpu");
 
 		driver = new ChromeDriver(options);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	    driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 	}
 
