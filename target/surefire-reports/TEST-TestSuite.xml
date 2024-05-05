@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.437" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.256" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="webdriver.chrome.driver" value="/Users/naufalazhar/.cache/selenium/chromedriver/chromedriver"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire/surefirebooter-20240505230923330_3.jar /Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire 2024-05-05T23-09-23_298-jvmRun1 surefire-20240505230923330_1tmp surefire_0-20240505230923330_2tmp"/>
+    <property name="sun.java.command" value="/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire/surefirebooter-20240506011436685_3.jar /Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire 2024-05-06T01-14-36_644-jvmRun1 surefire-20240506011436685_1tmp surefire_0-20240506011436685_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/test-classes:/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/classes:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-java/7.15.0/cucumber-java-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-core/7.15.0/cucumber-core-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-gherkin/7.15.0/cucumber-gherkin-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.15.0/cucumber-gherkin-messages-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/tag-expressions/6.0.0/tag-expressions-6.0.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-expressions/17.0.1/cucumber-expressions-17.0.1.jar:/Users/naufalazhar/.m2/repository/io/cucumber/datatable/7.15.0/datatable-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-plugin/7.15.0/cucumber-plugin-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/docstring/7.15.0/docstring-7.15.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/naufalazhar/.m2/repository/io/cucumber/ci-environment/10.0.0/ci-environment-10.0.0.jar:/Users/naufalazhar/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/naufalazhar/.m2/repository/io/cucumber/cucumber-testng/7.13.0/cucumber-testng-7.13.0.jar:/Users/naufalazhar/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/naufalazhar/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/naufalazhar/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/naufalazhar/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-java/4.19.1/selenium-java-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-api/4.19.1/selenium-api-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.19.1/selenium-chrome-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.19.1/selenium-chromium-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-json/4.19.1/selenium-json-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.19.1/selenium-manager-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v121/4.19.1/selenium-devtools-v121-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v122/4.19.1/selenium-devtools-v122-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.19.1/selenium-devtools-v123-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.19.1/selenium-devtools-v85-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.19.1/selenium-edge-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.19.1/selenium-firefox-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-http/4.19.1/selenium-http-4.19.1.jar:/Users/naufalazhar/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.19.1/selenium-ie-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.19.1/selenium-remote-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/com/google/guava/guava/33.1.0-jre/guava-33.1.0-jre.jar:/Users/naufalazhar/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/naufalazhar/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/naufalazhar/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/naufalazhar/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/naufalazhar/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/naufalazhar/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.23.1-alpha/opentelemetry-semconv-1.23.1-alpha.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-api/1.36.0/opentelemetry-api-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-context/1.36.0/opentelemetry-context-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.36.0/opentelemetry-exporter-logging-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.36.0/opentelemetry-sdk-common-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.36.0/opentelemetry-sdk-extension-autoconfigure-spi-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.36.0/opentelemetry-sdk-extension-autoconfigure-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.36.0-alpha/opentelemetry-api-events-1.36.0-alpha.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.36.0/opentelemetry-sdk-trace-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-extension-incubator/1.36.0-alpha/opentelemetry-extension-incubator-1.36.0-alpha.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.36.0/opentelemetry-sdk-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.36.0/opentelemetry-sdk-metrics-1.36.0.jar:/Users/naufalazhar/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.36.0/opentelemetry-sdk-logs-1.36.0.jar:/Users/naufalazhar/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-os/4.19.1/selenium-os-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.19.1/selenium-safari-driver-4.19.1.jar:/Users/naufalazhar/.m2/repository/org/seleniumhq/selenium/selenium-support/4.19.1/selenium-support-4.19.1.jar:"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire/surefirebooter-20240505230923330_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/naufalazhar/Documents/NAUFAL_AZHAR/ECLIPSE/WORK_SPACE/BDDframework/target/surefire/surefirebooter-20240506011436685_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;User is able to checkout successfully&quot;, &quot;Checkout&quot;](1)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.581">
+  <testcase name="runScenario[&quot;User is able to checkout successfully&quot;, &quot;Checkout&quot;](1)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="2.417">
     <system-out><![CDATA[
 Scenario: User is able to checkout successfully               &amp#27;[90m# src/test/resources/Features/Checkout.feature:9&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has logged in with valid credentials&amp#27;[0m             &amp#27;[90m# StepDefinitions.CheckoutStepDefinition.user_has_logged_in_with_valid_credentials()&amp#27;[0m
@@ -70,13 +70,13 @@ Scenario: User is able to checkout successfully               &amp#27;[90m# src/
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-May 05, 2024 11:09:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User is unable to checkout with missing information&quot;, &quot;Checkout&quot;](2)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.706">
+  <testcase name="runScenario[&quot;User is unable to checkout with missing information&quot;, &quot;Checkout&quot;](2)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.327">
     <system-out><![CDATA[
 Scenario: User is unable to checkout with missing information                    &amp#27;[90m# src/test/resources/Features/Checkout.feature:13&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has logged in with valid credentials&amp#27;[0m                                &amp#27;[90m# StepDefinitions.CheckoutStepDefinition.user_has_logged_in_with_valid_credentials()&amp#27;[0m
@@ -84,25 +84,25 @@ Scenario: User is unable to checkout with missing information                   
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters incomplete checkout information and tries to complete checkout&amp#27;[0m &amp#27;[90m# StepDefinitions.CheckoutStepDefinition.user_enters_incomplete_checkout_information_and_tries_to_complete_checkout()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see error message indicating missing information&amp#27;[0m              &amp#27;[90m# StepDefinitions.CheckoutStepDefinition.user_should_see_error_message_indicating_missing_information()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[May 05, 2024 11:09:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2024 1:14:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User opens the login page successfully&quot;, &quot;Login Functionality Test&quot;](3)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="0.968">
+  <testcase name="runScenario[&quot;User opens the login page successfully&quot;, &quot;Login Functionality Test&quot;](3)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="0.953">
     <system-out><![CDATA[
 Scenario: User opens the login page successfully &amp#27;[90m# src/test/resources/Features/Login.feature:7&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the SauceDemo login page&amp#27;[0m         &amp#27;[90m# StepDefinitions.LoginStepDefinition.iAmOnTheLoginPage()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe login page should be displayed&amp#27;[0m        &amp#27;[90m# StepDefinitions.LoginStepDefinition.the_login_page_should_be_displayed()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[May 05, 2024 11:09:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2024 1:14:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;login with valid account&quot;, &quot;Login Functionality Test&quot;](4)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.094">
+  <testcase name="runScenario[&quot;login with valid account&quot;, &quot;Login Functionality Test&quot;](4)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.22">
     <system-out><![CDATA[
 Scenario Outline: login with valid account                          &amp#27;[90m# src/test/resources/Features/Login.feature:17&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the SauceDemo login page&amp#27;[0m                            &amp#27;[90m# StepDefinitions.LoginStepDefinition.iAmOnTheLoginPage()&amp#27;[0m
@@ -110,13 +110,13 @@ Scenario Outline: login with valid account                          &amp#27;[90m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                                      &amp#27;[90m# StepDefinitions.LoginStepDefinition.iClickTheLoginButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be on the inventory page&amp#27;[0m                            &amp#27;[90m# StepDefinitions.LoginStepDefinition.iShouldBeOnTheInventoryPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[May 05, 2024 11:09:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2024 1:14:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login with invalid account&quot;, &quot;Login Functionality Test&quot;](5)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.051">
+  <testcase name="runScenario[&quot;Login with invalid account&quot;, &quot;Login Functionality Test&quot;](5)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.237">
     <system-out><![CDATA[
 Scenario Outline: Login with invalid account   &amp#27;[90m# src/test/resources/Features/Login.feature:26&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the SauceDemo login page&amp#27;[0m       &amp#27;[90m# StepDefinitions.LoginStepDefinition.iAmOnTheLoginPage()&amp#27;[0m
@@ -124,13 +124,13 @@ Scenario Outline: Login with invalid account   &amp#27;[90m# src/test/resources/
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the login button&amp#27;[0m                 &amp#27;[90m# StepDefinitions.LoginStepDefinition.iClickTheLoginButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see an error message&amp#27;[0m           &amp#27;[90m# StepDefinitions.LoginStepDefinition.iShouldSeeAnErrorMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[May 05, 2024 11:09:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2024 1:14:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;User logs out successfully&quot;, &quot;Login Functionality Test&quot;](6)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.186">
+  <testcase name="runScenario[&quot;User logs out successfully&quot;, &quot;Login Functionality Test&quot;](6)" classname="StepDefinitions.TestRunner.CucumberTestRunner" time="1.209">
     <system-out><![CDATA[
 Scenario Outline: User logs out successfully                        &amp#27;[90m# src/test/resources/Features/Login.feature:36&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the SauceDemo login page&amp#27;[0m                            &amp#27;[90m# StepDefinitions.LoginStepDefinition.iAmOnTheLoginPage()&amp#27;[0m
@@ -139,9 +139,9 @@ Scenario Outline: User logs out successfully                        &amp#27;[90m
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks the logout button&amp#27;[0m                                 &amp#27;[90m# StepDefinitions.LoginStepDefinition.user_clicks_the_logout_button()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe user should be logged out successfully&amp#27;[0m                   &amp#27;[90m# StepDefinitions.LoginStepDefinition.the_user_should_be_logged_out_successfully()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[May 05, 2024 11:09:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 06, 2024 1:14:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
-May 05, 2024 11:09:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+May 06, 2024 1:14:44 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 124, returning the closest version; found: 123; Please update to a Selenium version that supports CDP version 124
 ]]></system-err>
   </testcase>

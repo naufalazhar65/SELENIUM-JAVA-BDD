@@ -67,7 +67,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>demo_test</projectName>
+							<projectName>BDDframework</projectName>
 							<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
 							<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 						</configuration>
