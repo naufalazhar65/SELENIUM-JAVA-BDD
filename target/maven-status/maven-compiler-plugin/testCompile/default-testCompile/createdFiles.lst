@@ -1,0 +1,3 @@
+StepDefinitions/CheckoutStepDefinition.class
+StepDefinitions/TestRunner/CucumberTestRunner.class
+StepDefinitions/LoginStepDefinition.class
